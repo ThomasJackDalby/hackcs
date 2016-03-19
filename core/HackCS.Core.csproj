@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8DB0FDB-6D03-4449-8F12-66225084231A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HackCS.Core</RootNamespace>
+    <AssemblyName>HackCS.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sloth">
+      <HintPath>..\packages\Sloth.1.0.0.31524\lib\net45\Sloth.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\BaseAction.cs" />
+    <Compile Include="Actions\ShootAction.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Data\Actors\Actor.cs" />
+    <Compile Include="Data\Actors\Explosion.cs" />
+    <Compile Include="Data\Actors\Grenade.cs" />
+    <Compile Include="Infos\BulletInfo.cs" />
+    <Compile Include="Infos\Direction.cs" />
+    <Compile Include="Data\Actors\Bullet.cs" />
+    <Compile Include="Data\Stage\Game.cs" />
+    <Compile Include="Infos\GameInfo.cs" />
+    <Compile Include="Infos\ActionInfo.cs" />
+    <Compile Include="Infos\ExtendedPlayerInfo.cs" />
+    <Compile Include="Infos\MapInfo.cs" />
+    <Compile Include="Infos\PlayerInfo.cs" />
+    <Compile Include="Infos\TileInfo.cs" />
+    <Compile Include="Data\Stage\Map.cs" />
+    <Compile Include="Actions\MoveAction.cs" />
+    <Compile Include="Data\Actors\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Data\Stage\Tile.cs" />
+    <Compile Include="Tools\ConsoleMenu.cs" />
+    <Compile Include="Tools\MenuOption.cs" />
+    <Compile Include="Tools\RTSTools.cs" />
+    <Compile Include="Tools\ThreadSafeList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

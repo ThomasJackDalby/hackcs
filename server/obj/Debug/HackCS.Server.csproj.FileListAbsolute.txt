@@ -1,0 +1,12 @@
+D:\Git\thomasjackdalby\fluffy-octo-giggle\bin\Debug\hackcs_server.exe.config
+D:\Git\thomasjackdalby\fluffy-octo-giggle\bin\Debug\hackcs_server.exe
+D:\Git\thomasjackdalby\fluffy-octo-giggle\bin\Debug\hackcs_server.pdb
+D:\Git\thomasjackdalby\fluffy-octo-giggle\RTS Server\obj\Debug\HackCS.Server.csprojResolveAssemblyReference.cache
+D:\Git\thomasjackdalby\fluffy-octo-giggle\RTS Server\obj\Debug\hackcs_server.exe
+D:\Git\thomasjackdalby\fluffy-octo-giggle\RTS Server\obj\Debug\hackcs_server.pdb
+D:\Git\thomasjackdalby\hackcs\bin\Debug\hackcs_server.exe.config
+D:\Git\thomasjackdalby\hackcs\bin\Debug\hackcs_server.exe
+D:\Git\thomasjackdalby\hackcs\bin\Debug\hackcs_server.pdb
+D:\Git\thomasjackdalby\hackcs\server\obj\Debug\HackCS.Server.csprojResolveAssemblyReference.cache
+D:\Git\thomasjackdalby\hackcs\server\obj\Debug\hackcs_server.exe
+D:\Git\thomasjackdalby\hackcs\server\obj\Debug\hackcs_server.pdb
