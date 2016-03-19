@@ -1,9 +1,0 @@
-D:\Git\thomasjackdalby\fluffy-octo-giggle\bin\Debug\HackCS.Core.dll
-D:\Git\thomasjackdalby\fluffy-octo-giggle\bin\Debug\HackCS.Core.pdb
-D:\Git\thomasjackdalby\fluffy-octo-giggle\RTS Engine\obj\Debug\HackCS.Core.dll
-D:\Git\thomasjackdalby\fluffy-octo-giggle\RTS Engine\obj\Debug\HackCS.Core.pdb
-D:\Git\thomasjackdalby\hackcs\bin\Debug\HackCS.Core.dll
-D:\Git\thomasjackdalby\hackcs\bin\Debug\HackCS.Core.pdb
-D:\Git\thomasjackdalby\hackcs\core\obj\Debug\HackCS.Core.csprojResolveAssemblyReference.cache
-D:\Git\thomasjackdalby\hackcs\core\obj\Debug\HackCS.Core.dll
-D:\Git\thomasjackdalby\hackcs\core\obj\Debug\HackCS.Core.pdb

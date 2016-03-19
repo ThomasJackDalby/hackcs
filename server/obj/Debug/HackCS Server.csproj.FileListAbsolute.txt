@@ -1,2 +1,0 @@
-D:\Git\thomasjackdalby\fluffy-octo-giggle\bin\Debug\HackCS_Server.exe.config
-D:\Git\thomasjackdalby\fluffy-octo-giggle\bin\Debug\HackCS.Server.exe.config
