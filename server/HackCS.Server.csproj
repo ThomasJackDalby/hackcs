@@ -57,7 +57,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RTS Engine\HackCS.Core.csproj">
+    <ProjectReference Include="..\core\HackCS.Core.csproj">
       <Project>{d8db0fdb-6d03-4449-8f12-66225084231a}</Project>
       <Name>HackCS.Core</Name>
     </ProjectReference>

@@ -1,0 +1,6 @@
+D:\Git\thomasjackdalby\hackcs\bin\Debug\hackcs_client.exe.config
+D:\Git\thomasjackdalby\hackcs\bin\Debug\hackcs_client.exe
+D:\Git\thomasjackdalby\hackcs\bin\Debug\hackcs_client.pdb
+D:\Git\thomasjackdalby\hackcs\client\obj\Debug\HackCS.Client.csprojResolveAssemblyReference.cache
+D:\Git\thomasjackdalby\hackcs\client\obj\Debug\hackcs_client.exe
+D:\Git\thomasjackdalby\hackcs\client\obj\Debug\hackcs_client.pdb

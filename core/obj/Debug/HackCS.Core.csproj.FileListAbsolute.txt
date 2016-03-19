@@ -1,0 +1,4 @@
+D:\Git\thomasjackdalby\hackcs\bin\Debug\HackCS.Core.dll
+D:\Git\thomasjackdalby\hackcs\bin\Debug\HackCS.Core.pdb
+D:\Git\thomasjackdalby\hackcs\core\obj\Debug\HackCS.Core.dll
+D:\Git\thomasjackdalby\hackcs\core\obj\Debug\HackCS.Core.pdb
